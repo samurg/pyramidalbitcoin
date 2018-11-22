@@ -23,6 +23,7 @@ eureka:
     instance:
         prefer-ip-address: true
     client:
+        enabled: false
         service-url:
             defaultZone: http://admin:${jhipster.registry.password}@localhost:8761/eureka/
 
@@ -43,9 +44,9 @@ spring:
             indent-output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/pyramidalbitcoin
-        username: pyramidalbitcoin
-        password:
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: postgres
+        password: cristian3
         hikari:
             auto-commit: false
     jpa:
@@ -81,7 +82,7 @@ spring:
         enabled: false
         locator:
             discovery:
-                enabled: true
+                enabled: false
 
 server:
     port: 8080
