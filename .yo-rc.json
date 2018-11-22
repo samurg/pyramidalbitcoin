@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.unleashed.pyramidalbitcoin",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "microservice",
+    "baseName": "pyramidalbitcoin",
+    "packageName": "com.unleashed.pyramidalbitcoin",
+    "packageFolder": "com/unleashed/pyramidalbitcoin",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjM5MWU2ZjBlNGY2YThkYjYzY2Q4YjhkYjQ5MzM0OWNhODk4OTY0ZDQwNTkyMjgzN2Q5OTYwMzhjNjJmOTE1NjY4Y2RhZmNlM2NhNjdmNjk0YWMzNjcwYzE5MGIwMGJhN2NmMGQ0MmJlNDJkMmYzNmE5YjE3N2NmODJkMWI4MTg=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "en",
+      "fr",
+      "it",
+      "pt-pt"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
